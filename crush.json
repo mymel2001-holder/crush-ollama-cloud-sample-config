@@ -3,7 +3,7 @@
   "providers": {
     "openwebui": {
       "type": "openai",
-      "base_url": "https://100.92.246.90:11434/v1",
+      "base_url": "http://100.92.246.90:11434/v1",
       "api_key": "x",
       "name": "Ollama",
       "models": [
