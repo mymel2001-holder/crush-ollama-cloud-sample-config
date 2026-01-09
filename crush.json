@@ -3,7 +3,7 @@
   "providers": {
     "openwebui": {
       "type": "openai",
-      "base_url": "https://localhost:11434/v1",
+      "base_url": "https://100.92.246.90:11434/v1",
       "api_key": "x",
       "name": "Ollama Cloud",
       "models": [
@@ -22,12 +22,33 @@
           "supports_tools": false
          },
          {
+          "id": "sparksammy/microgpt:deepseek-8b",
+          "name": "MicroGPT Classic 8B",
+          "context_window": 64000,
+          "default_max_tokens": 20000,
+          "supports_tools": true
+         },
+        {
+          "id": "sparksammy/microgpt-improved:latest",
+          "name": "MicroGPT Improved 14b",
+          "context_window": 31420,
+          "default_max_tokens": 20000,
+          "supports_tools": true
+        },
+        {
+          "id": "sparksammy/samantha-dsr1-v2:8b",
+          "name": "Samantha Deepseek R1 8B",
+          "context_window": 64000,
+          "default_max_tokens": 20000,
+          "supports_tools": true
+        },
+        {
           "id": "devstral-2:123b-cloud",
           "name": "Devstral 2",
           "context_window": 256000,
           "default_max_tokens": 20000,
           "supports_tools": true
-         }
+        }
       ]
     }
   }
