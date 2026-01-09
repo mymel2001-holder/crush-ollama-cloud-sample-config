@@ -22,20 +22,6 @@
           "supports_tools": false
          },
          {
-          "id": "deepseek-r1:8b",
-          "name": "Deepseek R1 8b",
-          "context_window": 64000,
-          "default_max_tokens": 20000,
-          "supports_tools": true
-         },
-         {
-          "id": "deepseek-r1:14b",
-          "name": "Deepseek R1 14b",
-          "context_window": 64000,
-          "default_max_tokens": 20000,
-          "supports_tools": true
-         },
-         {
           "id": "devstral-2:123b-cloud",
           "name": "Devstral 2",
           "context_window": 256000,
