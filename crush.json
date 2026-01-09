@@ -22,29 +22,15 @@
           "supports_tools": false
          },
          {
-          "id": "sparksammy/microgpt:deepseek-8b",
-          "name": "MicroGPT Classic 8B",
+          "id": "deepseek-r1:8b",
+          "name": "Deepseek R1 8b",
           "context_window": 64000,
           "default_max_tokens": 20000,
           "supports_tools": true
          },
          {
-          "id": "sparksammy/microgpt-improved:latest",
-          "name": "MicroGPT Improved 14b",
-          "context_window": 31420,
-          "default_max_tokens": 20000,
-          "supports_tools": true
-         },
-         {
-          "id": "sparksammy/samantha-dsr1-v2:8b",
-          "name": "Samantha Deepseek R1 8B",
-          "context_window": 64000,
-          "default_max_tokens": 20000,
-          "supports_tools": true
-         },
-         {
-          "id": "sparksammy/samantha-ministral3:8b",
-          "name": "Samantha Ministral 3 8B",
+          "id": "deepseek-r1:14b",
+          "name": "Deepseek R1 14b",
           "context_window": 64000,
           "default_max_tokens": 20000,
           "supports_tools": true
